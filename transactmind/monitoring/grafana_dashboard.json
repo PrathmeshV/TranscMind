@@ -1,0 +1,13 @@
+{
+    "dashboard": {
+        "id": null,
+        "title": "TransactMind",
+        "panels": [
+            {
+                "type": "graph",
+                "title": "Request Latency",
+                "targets": []
+            }
+        ]
+    }
+}

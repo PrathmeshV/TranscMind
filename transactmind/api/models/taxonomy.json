@@ -1,0 +1,32 @@
+{
+    "labels": [
+        "groceries",
+        "utilities",
+        "entertainment",
+        "travel",
+        "salary",
+        "others"
+    ],
+    "examples": [
+        {
+            "text": "Walmart Supercenter 1234",
+            "category": "groceries"
+        },
+        {
+            "text": "Shell Fuel Station 567",
+            "category": "utilities"
+        },
+        {
+            "text": "Netflix subscription",
+            "category": "entertainment"
+        },
+        {
+            "text": "Delta Airlines ticket",
+            "category": "travel"
+        },
+        {
+            "text": "Acme Corp payroll",
+            "category": "salary"
+        }
+    ]
+}
