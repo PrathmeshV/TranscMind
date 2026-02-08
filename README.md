@@ -2,6 +2,12 @@
 # TransacMind
 
 This repository contains a fully-local, end-to-end transaction categorisation system designed for experimentation and deployment on a single machine. It provides:
+# 🌊 Data Flow Diagram
+
+The core logic resides within the FastAPI server. Here is a detailed breakdown of how data flows through the AI services during a user session.
+
+![TranscMind Data Flow](./dataflow.png)
+
 
 - A FastAPI inference service exposing `/predict` for transaction classification and explanations.
 - Local embeddings (Sentence-BERT / stub fallback), an ONNX classifier (with quantized model fallback), a local RAG engine (ChromaDB optional, local NPZ + NearestNeighbors fallback), and a lightweight agent controller that can use LangChain/llama when available or fallback to summarizers.
